@@ -1,0 +1,22 @@
+{
+  "name": "eliza-character-utility",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.0.5",
+    "ai": "^4.0.18",
+    "dotenv": "^16.4.7"
+  }
+}

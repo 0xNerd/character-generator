@@ -1,0 +1,6 @@
+node_modules
+
+character.json
+.env
+/dist
+package-lock.json
