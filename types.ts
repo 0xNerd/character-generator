@@ -4,7 +4,7 @@ type UUID = string;
 /**
  * Example message for demonstration
  */
-export interface MessageExample {
+interface MessageExample {
     /** Associated user */
     user: string;
 
@@ -15,7 +15,7 @@ export interface MessageExample {
 /**
  * Represents the content of a message or communication
  */
-export interface Content {
+interface Content {
     /** The main text content */
     text: string;
 
@@ -41,7 +41,7 @@ export interface Content {
 /**
  * Represents a media attachment
  */
-export type Media = {
+type Media = {
     /** Unique identifier */
     id: string;
 
